@@ -1,0 +1,15 @@
+name: LagCheck
+author: FireWolf
+version: 1.0.0
+api: 3.18.0
+main: LagCheck\Main
+
+commands:
+    ping:
+        description: Check the ping in milliseconds of a player.
+        permission: lagcheck.command.ping
+        
+permissions:
+    lagcheck.command.ping:
+        description: Allows usage of /ping.
+        default: op
